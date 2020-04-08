@@ -16,7 +16,7 @@ window.Cart = {
     displayCartContent: function (products) {
         let htmlContent = '';
 
-        products.forEach(products => htmlContent += Cart.getHtmlForOneProduct(product));
+        products.forEach(products => htmlContent += Cart.getHtmlForOneProduct(products));
 
         $('table.shop_table.cart').html(htmlContent);
     },
