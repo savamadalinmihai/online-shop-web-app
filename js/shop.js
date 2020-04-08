@@ -60,6 +60,7 @@ window.Shop = {
             event.preventDefault();
 
             let productId = $(this).data('product_id');
+
             Shop.addProductToCart(productId)
         })
     }
